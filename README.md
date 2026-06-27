@@ -1,251 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For My Everything - Puchu ❤️</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;600&family=Pacifico&display=swap');
+<h1 align="center">Hi 👋, I'm Supratik Patra</h1>
+<h3 align="center">An innovative Computer Science Student & Embedded Systems Hobbyist from India</h3>
 
-        :root {
-            --passion-red: #ff0055;
-            --rose-gold: #e0aaff;
-            --gold: #f1c40f;
-            --deep-space: #05051a;
-            --neon-pink: #ff00ff;
-            --glass: rgba(255, 255, 255, 0.1);
-            --peacock-blue: #00a8cc;
-            --peacock-green: #2ecc71;
-        }
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Embedded_Systems_&_IoT-9cf?style=for-the-badge&logo=arduino" />
+  <img src="https://img.shields.io/badge/Domain-AI_/_ML_/_Computer_Vision-blue?style=for-the-badge&logo=opencv" />
+  <img src="https://img.shields.io/badge/Location-India-orange?style=for-the-badge" />
+</p>
 
-        body, html {
-            margin: 0; padding: 0; height: 100%; width: 100%;
-            overflow: hidden;
-            font-family: 'Montserrat', sans-serif;
-            background: var(--deep-space);
-            color: white;
-            display: flex; justify-content: center; align-items: center;
-        }
+---
 
-        #bg-canvas {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            z-index: 1; pointer-events: none;
-        }
+### 🚀 About Me
 
-        /* --- STAGE 0: HARE KRISHNA --- */
-        #stage-pre {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            display: flex; flex-direction: column; justify-content: center;
-            align-items: center; z-index: 1000; background: var(--deep-space);
-            cursor: pointer; transition: opacity 1.5s;
-        }
+<img align="right" height="150" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnA3YmoxZmN6bTI0Ym8wdG05MXN5Nzh6MXZsczZ6eW84dGZubW90NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q3XbK6v8006E8/giphy.gif" alt="Circuit Board Animation" />
 
-        .krishna-text {
-            font-family: 'Great Vibes', cursive;
-            font-size: 4rem;
-            color: var(--gold);
-            text-shadow: 0 0 20px var(--peacock-blue), 0 0 40px var(--peacock-green);
-            margin-top: 20px;
-            animation: textGlow 2s infinite alternate;
-        }
+- 🔭 **Current Projects:** Building smart assistive technologies, intelligent hardware integrations, and computer vision frameworks.
+- ⚡ **Recent Builds:** Developed a *Facial Recognition Attendance System*, an *Air Guitar* using an MPU6050 accelerometer, and working on *Silent Communicator* assistive tech.
+- 🌱 **Actively Learning:** Advanced algorithmic problem solving, machine learning pipelines, and embedded software architectures.
+- 💬 **Ask me about:** Microcontrollers, circuit troubleshooting, C/C++, and Python.
+- 📫 **How to reach me:** [patrasupratik2006@gmail.com](mailto:patrasupratik2006@gmail.com)
 
-        .feather-container {
-            width: 150px;
-            height: 250px;
-            position: relative;
-            animation: featherFloat 4s infinite ease-in-out;
-            filter: drop-shadow(0 0 15px var(--peacock-blue));
-        }
+<p align="left">
+  <a href="https://www.linkedin.com/in/supratik-patra06" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
 
-        @keyframes featherFloat {
-            0%, 100% { transform: translateY(0) rotate(5deg); }
-            50% { transform: translateY(-30px) rotate(-10deg); }
-        }
+---
 
-        @keyframes textGlow {
-            from { text-shadow: 0 0 10px var(--gold); }
-            to { text-shadow: 0 0 30px var(--peacock-blue), 0 0 50px var(--peacock-green); transform: scale(1.05); }
-        }
+### 🛠️ Languages and Tools
 
-        /* --- STAGE 1: THE HEART GIFT --- */
-        #stage-1 {
-            display: none;
-            z-index: 10; text-align: center; cursor: pointer;
-            transition: opacity 1.5s, transform 1.5s;
-        }
+<p align="left">
+  <!-- Languages -->
+  <strong style="display:block; margin-bottom: 5px;">Programming Languages:</strong>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="42" height="42"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="42" height="42"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="42" height="42"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="42" height="42"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="42" height="42"/>&nbsp;
+  <br><br>
+  
+  <!-- Hardware & IoT -->
+  <strong style="display:block; margin-bottom: 5px;">Hardware & Embedded Systems:</strong>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" alt="Arduino" width="42" height="42"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" width="42" height="42"/>&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/espressif/espressif-icon.svg" alt="ESP32/NodeMCU" width="42" height="42"/>&nbsp;
+  <br><br>
 
-        .heart-gift {
-            position: relative;
-            width: 100px; height: 100px;
-            background-color: var(--passion-red);
-            transform: rotate(-45deg);
-            margin: 0 auto 50px;
-            animation: heartPulse 1.2s infinite;
-            box-shadow: 0 0 50px rgba(255, 0, 85, 0.6);
-        }
+  <!-- Dev Tools -->
+  <strong style="display:block; margin-bottom: 5px;">Development Tools:</strong>
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="42" height="42"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="42" height="42"/>&nbsp;
+</p>
 
-        .heart-gift::before, .heart-gift::after {
-            content: '';
-            position: absolute;
-            width: 100px; height: 100px;
-            background-color: var(--passion-red);
-            border-radius: 50%;
-        }
+---
 
-        .heart-gift::before { top: -50px; left: 0; }
-        .heart-gift::after { top: 0; left: 50px; }
+### 📊 GitHub Analytics
 
-        @keyframes heartPulse {
-            0% { transform: rotate(-45deg) scale(1); }
-            15% { transform: rotate(-45deg) scale(1.2); }
-            100% { transform: rotate(-45deg) scale(1); }
-        }
+<p align="center">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=Supratik06patra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Supratik's GitHub Stats" height="180px" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Supratik06patra&layout=compact&theme=tokyonight" alt="Supratik's Top Languages" height="180px" />
+</p>
 
-        .glow-text {
-            font-family: 'Great Vibes', cursive;
-            font-size: 3rem;
-            color: var(--rose-gold);
-            text-shadow: 0 0 20px var(--passion-red);
-        }
+<br clear="both">
+<br>
 
-        /* --- STAGE 2: THE REVEAL --- */
-        #stage-2 {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            display: none; flex-direction: column; justify-content: center;
-            align-items: center; z-index: 20; text-align: center;
-        }
+### 🐍 Contribution Graph
 
-        .puchu-title {
-            font-family: 'Pacifico', cursive;
-            font-size: 4rem;
-            margin-bottom: 20px;
-            background: linear-gradient(45deg, #fff, var(--rose-gold), var(--gold));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: floatUI 3s infinite alternate;
-        }
-
-        @keyframes floatUI {
-            from { transform: translateY(0); }
-            to { transform: translateY(-15px); }
-        }
-
-        .message-bubble {
-            background: var(--glass);
-            backdrop-filter: blur(15px);
-            padding: 20px 40px;
-            border-radius: 50px;
-            border: 1px solid rgba(255,255,255,0.2);
-            font-size: 1.2rem;
-            margin: 10px;
-            opacity: 0;
-            transform: translateY(20px);
-            transition: 1s;
-        }
-
-        /* --- STAGE 5: THE PUZZLE BOX --- */
-        #stage-puzzle {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            display: none; flex-direction: column; justify-content: center;
-            align-items: center; z-index: 40;
-        }
-
-        .magic-box {
-            width: 150px; height: 120px;
-            background: #4a001e;
-            border: 4px solid var(--gold);
-            position: relative;
-            box-shadow: 0 0 30px var(--gold);
-            transition: transform 0.5s;
-        }
-
-        .box-lid {
-            position: absolute; top: -20px; left: -10px;
-            width: 170px; height: 30px;
-            background: #7a0031;
-            border: 2px solid var(--gold);
-            transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-        }
-
-        .puzzle-heart {
-            position: absolute;
-            font-size: 2rem;
-            cursor: pointer;
-            filter: drop-shadow(0 0 10px var(--gold));
-            animation: keyFloat 2s infinite alternate;
-            z-index: 50;
-        }
-
-        @keyframes keyFloat {
-            from { transform: scale(1) translateY(0); }
-            to { transform: scale(1.2) translateY(-10px); }
-        }
-
-        /* --- STAGE 6: THE LETTER --- */
-        #stage-letter {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            display: none; justify-content: center; align-items: center;
-            z-index: 100; background: rgba(0,0,0,0.8);
-        }
-
-        .letter-container {
-            width: 300px; height: 400px;
-            background: #fffafa;
-            color: #333;
-            padding: 40px 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 50px rgba(255,255,255,0.3);
-            font-family: 'Great Vibes', cursive;
-            font-size: 2.5rem;
-            text-align: center;
-            transform: scale(0) rotate(-10deg);
-            transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            display: flex; flex-direction: column; justify-content: center;
-            position: relative;
-            user-select: none;
-        }
-
-        /* --- GLOBAL EFFECTS --- */
-        .flash {
-            position: fixed; top:0; left:0; width:100%; height:100%;
-            background: white; opacity: 0; z-index: 9999; pointer-events: none;
-        }
-
-        #music-btn {
-            position: fixed; top: 20px; right: 20px; z-index: 1100;
-            background: var(--glass); border: 1px solid white; color: white;
-            width: 45px; height: 45px; border-radius: 50%; cursor: pointer;
-        }
-
-        .balloon {
-            position: absolute; font-size: 2rem; pointer-events: none;
-            z-index: 45; animation: balloonFloat 4s linear forwards;
-        }
-
-        @keyframes balloonFloat {
-            0% { transform: translateY(0) scale(1); opacity: 1; }
-            100% { transform: translateY(-100vh) scale(1.5) rotate(20deg); opacity: 0; }
-        }
-
-        .crazy-love-text {
-            position: fixed;
-            pointer-events: none;
-            z-index: 1001;
-            font-family: 'Pacifico', cursive;
-            text-shadow: 0 0 10px rgba(255,255,255,0.5);
-            white-space: nowrap;
-        }
-
-    </style>
-</head>
-<body onclick="handleClick(event)">
-
-    <canvas id="bg-canvas"></canvas>
-    <div id="flash-overlay" class="flash"></div>
-
-    <button id="music-btn" onclick="toggleMusic(event)">🎵</button>
-    <audio id="bg-music" loop>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Supratik06patra/Supratik06patra/output/github-snake-dark.svg" alt="Snake animation" />
+</p>
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
     </audio>
 
     <!-- Stage 0: Hare Krishna -->
