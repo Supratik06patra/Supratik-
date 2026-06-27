@@ -64,8 +64,38 @@
 
 ### 🐍 Contribution Graph
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Supratik06patra/Supratik06patra/output/github-snake-dark.svg" alt="Snake animation" />
-</p>
-<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
-    </audio
+name: Generate Snake
+
+on:
+  schedule:
+    # Runs every 12 hours automatically
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
